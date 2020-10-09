@@ -1,0 +1,488 @@
+body{
+    font-family: Helvetica;
+    font-size: 16px;
+    margin: 0;
+    
+    background-color: #ecf0f1;
+}
+#header{
+    height: 114px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#cabecalho{
+    background-color: #3199dc;
+    height: 114px;
+    width: 100%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+#menu{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnMenu{
+    margin-right: 30%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
+}
+
+#imgLogo{
+    margin-left: 13%;
+}
+
+#descricaoCabecalho{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+#textoDescricao{
+    font-family: Helvetica, Arial, sans-serif;
+   
+    color: #d0f2ff;
+    user-select: none;
+    margin-top: 8.8%;
+    margin-left:6.2% ;
+}
+
+#textoDescricaoDestacado{
+    font-weight: bold;
+}
+
+#redesSociais{
+    height: 100%;
+    width: 21%;
+    padding-right: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fb_img{
+    height: 28%;
+    width: 85px;
+    margin-top: 1%;
+    margin-left: 7%;
+    background-color: #ffffff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 0.6em;
+    color: #335190;
+    box-shadow: 0px 0px 1px #333333;
+}
+
+
+#tw_img{
+    height: 28%;
+    width: 85px;
+    margin-top: 1%;
+    background-color: #ffffff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 0.6em;
+    color: #00aff2;
+    box-shadow: 0px 0px 1px #333333;
+}
+
+#sessaoCarrossel{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#carrossel{
+    height: 47vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 55px;
+}
+
+#imgCarrossel{
+    position: relative;
+}
+
+#textoAzulCarrossel{
+    position: absolute;
+    background-color:  #3199dc ;
+    width: 23.1%;
+    height: 25px;
+    font-size: 1em;
+    color: #ffffff ;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    padding-top: 3px;
+    margin-top: 310px;
+    margin-left:29px ;
+}
+
+#textoBrancoCarrossel1{
+    font-family: Helvetica;
+    position: absolute;
+    font-size:1.7em;
+    color: #ffffff ;
+    margin-top: 354px ;
+    margin-left:29px ;
+    font-weight: bold;
+}
+
+
+#textoBrancoCarrossel2{
+    font-family: Helvetica;
+    position: absolute;
+    font-size:1.7em;
+    color: #ffffff ;
+    margin-top: 388px ;
+    margin-left:29px ;
+    font-weight: bold;
+}
+
+.botaoCarrossel{
+    background-color: #ffffff;
+    width: 55px;
+    height: 55px;
+    border-style: none;
+    box-shadow: 0px 1px 3px #8f8e8eb0;
+    border-radius:100px;
+    outline: none;
+    cursor: pointer;
+}
+
+#setaEsquerdaCarrossel{
+    position:absolute;
+    margin-top:210px;
+    margin-left: -30px;
+}
+
+#setaDireitaCarrossel{
+    position:absolute;
+    margin-top:210px;
+    margin-left: -30px;
+}
+
+#paginacao{
+    margin-top:15px ;
+}
+
+.paginacaoCarrossel{
+    background-color: #9b9b9b;
+    height:12px;
+    width:12px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+#paginacaoCarrosselAtivo{
+    background-color: #19a5ea;
+}
+
+#topCacildis{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#h2TopCacildis{
+    color: #283c4f;
+    font-size: 1.5em;
+    font-weight: lighter;
+    width: 100%;
+    max-width: 1140px;
+    margin-top: 0;
+}
+
+#cardsTopCacildis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1170px;
+}
+#divImgCacildis{
+    position: relative;
+}
+#divImgCacildis>img{
+    height: 215px;
+    
+}
+
+.textoCardsCacildis{
+    position: absolute;
+    background-color:#e84b39b7 ;
+    height: 30px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: .8em;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    margin-top: 167px;
+}
+
+#pindureta{
+    width: 25%;
+}
+
+#bolis{
+    width:18% ;
+}
+
+#sapien{
+    width: 21%;
+}
+
+#h2DivoltisPorris{
+    color: #283c4f;
+    font-size: 1.5em;
+    font-weight: lighter;
+    width: 80%;
+    max-width: 1140px;
+    margin-top: 0;
+}
+
+#divoltisPorris{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#divoltisPorrisDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 1261px;
+}
+
+#cardsDivoltisPorris{
+    width: 70%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: initial;
+    margin-left: 10px;
+}
+
+.cardsDivoltis{
+    height: 350px;
+    width: 50%;
+    max-width: 360px;
+}
+
+.cardsDivoltis>h2{
+    color: #478cbe;
+    font-size: 1em;
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cardsDivoltis>p{
+    color: #283c4f;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.cardsDivoltis>h3{
+    background-color: #d6d6d6;
+    width: 100%;
+    height: 1px;
+    margin-top: 35px;  
+}
+
+.cardsDivoltis>img{
+    width: 100%;
+    height: 214px;
+}
+
+#publicidadeDivoltis{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 29px;
+    margin-left: 20px;
+}
+
+#textoPublicidade{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    color: #959595 ;
+    font-size: .75em;
+    margin-bottom: 5px;
+}
+
+#paisisSeSuco{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#divPaisisSeSuco{
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.paisisPirulita{
+    width: 30%;
+    max-width: 360px;
+}
+
+#paisisFilhis>h2{
+    color:#19a5ea;
+    font-weight: normal;
+    font-size: 1.6em;
+}
+
+#paisisFilhis>p{
+    color: #283c4f;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+}
+
+#paisisFilhis>h3{
+    background-color: #d6d6d6;
+    width: 100%;
+    height: 1px;
+    margin-top: 28px;
+}
+
+
+#sePirulita{
+
+}
+
+#sePirulita>h2, #sucoDeCevadiss>h2{
+    color:#e84b39;
+    font-weight: normal;
+    font-size: 1.6em;
+}
+
+#namLiber, #gostis1, #interagi, #gostis2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+
+.textoPirulita{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+
+.textoPirulita>h3{
+    color:#e84b39;
+    font-weight: normal;
+    font-size: .8em;
+    margin-bottom: 5px;
+}
+
+.textoPirulita>p{
+    color: #283c4f;
+    font-weight: normal;
+    font-size: .95em;
+    margin: 0;
+}
+
+
+#rodape{
+    margin-top: 300px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#conteudoRodape{
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+}
+
+#divAzulClaro{
+    background-color: #19a5ea;
+    height:30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#divAzulClaro>span{
+    color: #ffffff;
+   
+}
+
+#setaCimaBtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 50px 0px 0px;
+}
+
+#divAzulEscuro{
+    background-color: #283c4f;
+    height:70%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#textoRodape{
+    width: 57%;
+    color: #ffffff;
+    font-size: 0.8em;
+    margin-right: 100px;
+}
+
+#divAzulEscuro>img{
+    margin-left: 90px;
+}

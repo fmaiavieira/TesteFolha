@@ -7,6 +7,8 @@
 ```
 # Teste realizado para pratica de Responsividade Junto a NewTab academy
 
+Link para visualização: https://testetecnicoprotarefa.netlify.app/
+
 ### Instruções
 
 1. Criar o HTML/CSS responsivo com base no layout navegável. 

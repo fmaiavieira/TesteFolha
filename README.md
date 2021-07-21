@@ -5,7 +5,7 @@
 |_||_| \___| |_| |_| \___/ (_)   ( )  | |
                                  |/  /_/ 
 ```
-# Teste para candidatos à vaga de desenvolvedor Front-end
+# Teste realizado para pratica de Responsividade Junto a NewTab academy
 
 ### Instruções
 
@@ -24,23 +24,3 @@
 * Tablet e monitores menores: https://invis.io/9Y3PCJ06B
 * *OBS*: estas mesmas imagens ficam na pasta "layouts".
 
-### Atenção
-
-* Os recortes das imagens estão na pasta "slices", mas você é livre para usar um http://lorempixel.com da vida no lugar.
-* Hospede o CSS dentro da pasta "css".
-* Não é necessário fazer o carrossel/rotate funcionar.
-* Não é necessário que a fonte seja exatamente a mesma usada na arte. Se quiser mantê-la, é a "Helvetica". ;)
-* É permitido usar qualquer editor de código e consultar a internet.
-* Suporte de Browsers: IE9+, Chrome, Safari, Firefox.
-
-### Links úteis
-
-* Grid: http://getbootstrap.com/css/#grid
-* Paleta de cores usadas no layout: https://color.adobe.com/pt/teste-folha-web-color-theme-6584765/
-* Mussum Ipsum (gerador de lorem ipsum do Mussum): http://mussumipsum.com/
-
-Ao terminar o teste, solicite um pull request. 
-
-Em caso de dúvidas, envie e-mail para l-tec-recrutamento-frontend@grupofolha.com.br.
-
-**Boa sorte!**
